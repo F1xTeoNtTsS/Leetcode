@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2D3C39DE2930B8B800FCB199 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39DD2930B8B800FCB199 /* main.swift */; };
-		2D3C39E52930B98600FCB199 /* RemoveDublicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39E42930B98600FCB199 /* RemoveDublicates.swift */; };
-		2D3C39E72930BF1F00FCB199 /* IsValidBrackets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39E62930BF1F00FCB199 /* IsValidBrackets.swift */; };
+		2D3C39E52930B98600FCB199 /* removeDublicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39E42930B98600FCB199 /* removeDublicates.swift */; };
+		2D3C39E72930BF1F00FCB199 /* isValidBrackets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39E62930BF1F00FCB199 /* isValidBrackets.swift */; };
+		2D3C39E92934A5C800FCB199 /* reversePolishNotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39E82934A5C800FCB199 /* reversePolishNotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,8 +28,9 @@
 /* Begin PBXFileReference section */
 		2D3C39DA2930B8B800FCB199 /* Problems */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Problems; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D3C39DD2930B8B800FCB199 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		2D3C39E42930B98600FCB199 /* RemoveDublicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDublicates.swift; sourceTree = "<group>"; };
-		2D3C39E62930BF1F00FCB199 /* IsValidBrackets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsValidBrackets.swift; sourceTree = "<group>"; };
+		2D3C39E42930B98600FCB199 /* removeDublicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeDublicates.swift; sourceTree = "<group>"; };
+		2D3C39E62930BF1F00FCB199 /* isValidBrackets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isValidBrackets.swift; sourceTree = "<group>"; };
+		2D3C39E82934A5C800FCB199 /* reversePolishNotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reversePolishNotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				2D3C39DD2930B8B800FCB199 /* main.swift */,
-				2D3C39E42930B98600FCB199 /* RemoveDublicates.swift */,
-				2D3C39E62930BF1F00FCB199 /* IsValidBrackets.swift */,
+				2D3C39E42930B98600FCB199 /* removeDublicates.swift */,
+				2D3C39E62930BF1F00FCB199 /* isValidBrackets.swift */,
+				2D3C39E82934A5C800FCB199 /* reversePolishNotation.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -127,8 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D3C39DE2930B8B800FCB199 /* main.swift in Sources */,
-				2D3C39E72930BF1F00FCB199 /* IsValidBrackets.swift in Sources */,
-				2D3C39E52930B98600FCB199 /* RemoveDublicates.swift in Sources */,
+				2D3C39E92934A5C800FCB199 /* reversePolishNotation.swift in Sources */,
+				2D3C39E72930BF1F00FCB199 /* isValidBrackets.swift in Sources */,
+				2D3C39E52930B98600FCB199 /* removeDublicates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

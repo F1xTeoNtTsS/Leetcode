@@ -7,6 +7,7 @@
 
 import Foundation
 
+
 func isValidBrackets(_ brackets: String) -> Bool {
     var stack: [Character] = []
     let brDict: [Character: Character] = [")": "(", "}": "{", "]": "["]
