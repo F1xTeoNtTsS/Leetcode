@@ -18,3 +18,7 @@ func removeDublicates(arr: String) -> String {
     }
     return result
 }
+
+// MARK: - Cases
+// aaaaabbc = abc
+// abcc = abc

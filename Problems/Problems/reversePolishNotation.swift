@@ -7,9 +7,6 @@
 
 import Foundation
 
-//["2","1","+","3","*"] = 9
-//["4","13","5","/","+"] = 6
-
 func reversePolishNotation(_ tokens: [String]) -> Int {
     var stack: [Int] = []
     
@@ -38,3 +35,8 @@ func reversePolishNotation(_ tokens: [String]) -> Int {
     }
     return stack.removeLast()
 }
+
+// MARK: - Cases
+//["2","1","+","3","*"] = 9
+//["4","13","5","/","+"] = 6
+//["10","6","9","3","+","-11","*","/","*","17","+","5","+"] = 22

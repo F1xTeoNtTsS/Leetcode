@@ -11,6 +11,7 @@
 		2D3C39E52930B98600FCB199 /* removeDublicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39E42930B98600FCB199 /* removeDublicates.swift */; };
 		2D3C39E72930BF1F00FCB199 /* isValidBrackets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39E62930BF1F00FCB199 /* isValidBrackets.swift */; };
 		2D3C39E92934A5C800FCB199 /* reversePolishNotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39E82934A5C800FCB199 /* reversePolishNotation.swift */; };
+		2D3C39EB2934C41100FCB199 /* makeGoodString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39EA2934C41100FCB199 /* makeGoodString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		2D3C39E42930B98600FCB199 /* removeDublicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeDublicates.swift; sourceTree = "<group>"; };
 		2D3C39E62930BF1F00FCB199 /* isValidBrackets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isValidBrackets.swift; sourceTree = "<group>"; };
 		2D3C39E82934A5C800FCB199 /* reversePolishNotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reversePolishNotation.swift; sourceTree = "<group>"; };
+		2D3C39EA2934C41100FCB199 /* makeGoodString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makeGoodString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				2D3C39E42930B98600FCB199 /* removeDublicates.swift */,
 				2D3C39E62930BF1F00FCB199 /* isValidBrackets.swift */,
 				2D3C39E82934A5C800FCB199 /* reversePolishNotation.swift */,
+				2D3C39EA2934C41100FCB199 /* makeGoodString.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 				2D3C39DE2930B8B800FCB199 /* main.swift in Sources */,
 				2D3C39E92934A5C800FCB199 /* reversePolishNotation.swift in Sources */,
 				2D3C39E72930BF1F00FCB199 /* isValidBrackets.swift in Sources */,
+				2D3C39EB2934C41100FCB199 /* makeGoodString.swift in Sources */,
 				2D3C39E52930B98600FCB199 /* removeDublicates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
