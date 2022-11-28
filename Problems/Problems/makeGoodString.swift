@@ -30,7 +30,7 @@ func makeGoodString(_ s: String) -> String {
 }
 
 // MARK: - Cases
-// aAbBcC = ""
-// cDbBaD = cDaD
-// abBAcC = ""
-// Pp = ""
+// aAbBcC -> ""
+// cDbBaD -> cDaD
+// abBAcC -> ""
+// Pp -> ""

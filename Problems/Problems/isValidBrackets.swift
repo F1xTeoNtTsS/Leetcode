@@ -29,7 +29,7 @@ func isValidBrackets(_ brackets: String) -> Bool {
 }
 
 // MARK: - Cases
-// {{{}}} = true
-// [[][ = false
-// []{}() = true
-// {[(}]) = false
+// {{{}}} -> true
+// [[][ -> false
+// []{}() -> true
+// {[(}]) -> false
