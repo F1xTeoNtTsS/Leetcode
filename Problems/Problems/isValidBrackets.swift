@@ -28,6 +28,7 @@ func isValidBrackets(_ brackets: String) -> Bool {
     return stack.isEmpty
 }
 
+// https://leetcode.com/problems/valid-parentheses/
 // MARK: - Cases
 // {{{}}} -> true
 // [[][ -> false
