@@ -13,6 +13,7 @@
 		2D3C39E92934A5C800FCB199 /* reversePolishNotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39E82934A5C800FCB199 /* reversePolishNotation.swift */; };
 		2D3C39EB2934C41100FCB199 /* makeGoodString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39EA2934C41100FCB199 /* makeGoodString.swift */; };
 		2D3C39ED29360A8C00FCB199 /* removeKDigits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39EC29360A8C00FCB199 /* removeKDigits.swift */; };
+		2D3C39EF2937588500FCB199 /* findAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39EE2937588500FCB199 /* findAnagrams.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		2D3C39E82934A5C800FCB199 /* reversePolishNotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reversePolishNotation.swift; sourceTree = "<group>"; };
 		2D3C39EA2934C41100FCB199 /* makeGoodString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = makeGoodString.swift; sourceTree = "<group>"; };
 		2D3C39EC29360A8C00FCB199 /* removeKDigits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeKDigits.swift; sourceTree = "<group>"; };
+		2D3C39EE2937588500FCB199 /* findAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findAnagrams.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				2D3C39E82934A5C800FCB199 /* reversePolishNotation.swift */,
 				2D3C39EA2934C41100FCB199 /* makeGoodString.swift */,
 				2D3C39EC29360A8C00FCB199 /* removeKDigits.swift */,
+				2D3C39EE2937588500FCB199 /* findAnagrams.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3C39EF2937588500FCB199 /* findAnagrams.swift in Sources */,
 				2D3C39DE2930B8B800FCB199 /* main.swift in Sources */,
 				2D3C39E92934A5C800FCB199 /* reversePolishNotation.swift in Sources */,
 				2D3C39E72930BF1F00FCB199 /* isValidBrackets.swift in Sources */,
