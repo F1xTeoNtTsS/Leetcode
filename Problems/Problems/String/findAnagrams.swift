@@ -11,7 +11,7 @@ func findAnagrams(_ s: String, _ p: String) -> [Int] {
     if p.count > s.count {
         return []
     }
-    let pSorted = p.sorted()
+    
     var result: [Int] = []
     var left = 0
     var right = p.count
@@ -19,7 +19,7 @@ func findAnagrams(_ s: String, _ p: String) -> [Int] {
     var substring = String(s[s.index(s.startIndex, offsetBy: left)..<s.index(s.startIndex, offsetBy: right)])
     
     while right < s.count + 1 {
-        if substring.sorted() == pSorted {
+        if substring.sorted() == p.sorted() {
             result.append(left)
         }
         if right > s.count - 1 {

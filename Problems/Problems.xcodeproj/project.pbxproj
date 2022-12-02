@@ -18,6 +18,7 @@
 		2D3C39F32938EA5F00FCB199 /* containsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39F22938EA5F00FCB199 /* containsDuplicate.swift */; };
 		2D3C39F52938EC1100FCB199 /* missingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39F42938EC1100FCB199 /* missingNumber.swift */; };
 		2D3C39F72939D94A00FCB199 /* findDisappearedNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39F62939D94A00FCB199 /* findDisappearedNumbers.swift */; };
+		2D3C39F92939E1CF00FCB199 /* singleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39F82939E1CF00FCB199 /* singleNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		2D3C39F22938EA5F00FCB199 /* containsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = containsDuplicate.swift; sourceTree = "<group>"; };
 		2D3C39F42938EC1100FCB199 /* missingNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = missingNumber.swift; sourceTree = "<group>"; };
 		2D3C39F62939D94A00FCB199 /* findDisappearedNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findDisappearedNumbers.swift; sourceTree = "<group>"; };
+		2D3C39F82939E1CF00FCB199 /* singleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,18 +80,43 @@
 			isa = PBXGroup;
 			children = (
 				2D3C39DD2930B8B800FCB199 /* main.swift */,
-				2D3C39F42938EC1100FCB199 /* missingNumber.swift */,
-				2D3C39E42930B98600FCB199 /* removeDublicates.swift */,
-				2D3C39E62930BF1F00FCB199 /* isValidBrackets.swift */,
-				2D3C39E82934A5C800FCB199 /* reversePolishNotation.swift */,
-				2D3C39EA2934C41100FCB199 /* makeGoodString.swift */,
-				2D3C39EC29360A8C00FCB199 /* removeKDigits.swift */,
-				2D3C39EE2937588500FCB199 /* findAnagrams.swift */,
-				2D3C39F029389A1400FCB199 /* peakIndexInMountainArray.swift */,
-				2D3C39F22938EA5F00FCB199 /* containsDuplicate.swift */,
-				2D3C39F62939D94A00FCB199 /* findDisappearedNumbers.swift */,
+				2D3C39FD2939E27F00FCB199 /* Stack */,
+				2D3C39FE2939F6BD00FCB199 /* String */,
+				2D3C39FA2939E1E500FCB199 /* Array */,
 			);
 			path = Problems;
+			sourceTree = "<group>";
+		};
+		2D3C39FA2939E1E500FCB199 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				2D3C39F029389A1400FCB199 /* peakIndexInMountainArray.swift */,
+				2D3C39F42938EC1100FCB199 /* missingNumber.swift */,
+				2D3C39F22938EA5F00FCB199 /* containsDuplicate.swift */,
+				2D3C39F62939D94A00FCB199 /* findDisappearedNumbers.swift */,
+				2D3C39F82939E1CF00FCB199 /* singleNumber.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		2D3C39FD2939E27F00FCB199 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				2D3C39EC29360A8C00FCB199 /* removeKDigits.swift */,
+				2D3C39E42930B98600FCB199 /* removeDublicates.swift */,
+				2D3C39EA2934C41100FCB199 /* makeGoodString.swift */,
+				2D3C39E82934A5C800FCB199 /* reversePolishNotation.swift */,
+				2D3C39E62930BF1F00FCB199 /* isValidBrackets.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		2D3C39FE2939F6BD00FCB199 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				2D3C39EE2937588500FCB199 /* findAnagrams.swift */,
+			);
+			path = String;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3C39F92939E1CF00FCB199 /* singleNumber.swift in Sources */,
 				2D3C39EF2937588500FCB199 /* findAnagrams.swift in Sources */,
 				2D3C39DE2930B8B800FCB199 /* main.swift in Sources */,
 				2D3C39E92934A5C800FCB199 /* reversePolishNotation.swift in Sources */,
