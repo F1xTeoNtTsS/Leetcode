@@ -17,6 +17,7 @@
 		2D3C39F129389A1400FCB199 /* peakIndexInMountainArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39F029389A1400FCB199 /* peakIndexInMountainArray.swift */; };
 		2D3C39F32938EA5F00FCB199 /* containsDuplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39F22938EA5F00FCB199 /* containsDuplicate.swift */; };
 		2D3C39F52938EC1100FCB199 /* missingNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39F42938EC1100FCB199 /* missingNumber.swift */; };
+		2D3C39F72939D94A00FCB199 /* findDisappearedNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39F62939D94A00FCB199 /* findDisappearedNumbers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		2D3C39F029389A1400FCB199 /* peakIndexInMountainArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = peakIndexInMountainArray.swift; sourceTree = "<group>"; };
 		2D3C39F22938EA5F00FCB199 /* containsDuplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = containsDuplicate.swift; sourceTree = "<group>"; };
 		2D3C39F42938EC1100FCB199 /* missingNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = missingNumber.swift; sourceTree = "<group>"; };
+		2D3C39F62939D94A00FCB199 /* findDisappearedNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findDisappearedNumbers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				2D3C39EE2937588500FCB199 /* findAnagrams.swift */,
 				2D3C39F029389A1400FCB199 /* peakIndexInMountainArray.swift */,
 				2D3C39F22938EA5F00FCB199 /* containsDuplicate.swift */,
+				2D3C39F62939D94A00FCB199 /* findDisappearedNumbers.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 				2D3C39DE2930B8B800FCB199 /* main.swift in Sources */,
 				2D3C39E92934A5C800FCB199 /* reversePolishNotation.swift in Sources */,
 				2D3C39F52938EC1100FCB199 /* missingNumber.swift in Sources */,
+				2D3C39F72939D94A00FCB199 /* findDisappearedNumbers.swift in Sources */,
 				2D3C39F129389A1400FCB199 /* peakIndexInMountainArray.swift in Sources */,
 				2D3C39F32938EA5F00FCB199 /* containsDuplicate.swift in Sources */,
 				2D3C39E72930BF1F00FCB199 /* isValidBrackets.swift in Sources */,
