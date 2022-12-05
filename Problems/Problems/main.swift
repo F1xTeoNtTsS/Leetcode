@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+print(construct2DArray([1,2,3,4], 2, 2))
+print(construct2DArray([1,2,3], 1, 3))
+print(construct2DArray([1,2], 1, 1))
+print(construct2DArray([5], 3, 1))
