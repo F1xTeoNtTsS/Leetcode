@@ -20,6 +20,7 @@
 		2D3C39F72939D94A00FCB199 /* findDisappearedNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39F62939D94A00FCB199 /* findDisappearedNumbers.swift */; };
 		2D3C39F92939E1CF00FCB199 /* singleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39F82939E1CF00FCB199 /* singleNumber.swift */; };
 		2D3C3A00293DE06600FCB199 /* construct2DArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39FF293DE06600FCB199 /* construct2DArray.swift */; };
+		2D3C3A02293F434500FCB199 /* productExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C3A01293F434500FCB199 /* productExceptSelf.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,7 @@
 		2D3C39F62939D94A00FCB199 /* findDisappearedNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = findDisappearedNumbers.swift; sourceTree = "<group>"; };
 		2D3C39F82939E1CF00FCB199 /* singleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleNumber.swift; sourceTree = "<group>"; };
 		2D3C39FF293DE06600FCB199 /* construct2DArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = construct2DArray.swift; sourceTree = "<group>"; };
+		2D3C3A01293F434500FCB199 /* productExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productExceptSelf.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				2D3C39F62939D94A00FCB199 /* findDisappearedNumbers.swift */,
 				2D3C39F82939E1CF00FCB199 /* singleNumber.swift */,
 				2D3C39FF293DE06600FCB199 /* construct2DArray.swift */,
+				2D3C3A01293F434500FCB199 /* productExceptSelf.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			files = (
 				2D3C39F92939E1CF00FCB199 /* singleNumber.swift in Sources */,
 				2D3C3A00293DE06600FCB199 /* construct2DArray.swift in Sources */,
+				2D3C3A02293F434500FCB199 /* productExceptSelf.swift in Sources */,
 				2D3C39EF2937588500FCB199 /* findAnagrams.swift in Sources */,
 				2D3C39DE2930B8B800FCB199 /* main.swift in Sources */,
 				2D3C39E92934A5C800FCB199 /* reversePolishNotation.swift in Sources */,
