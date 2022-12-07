@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(productExceptSelf([-1,1,0,-3,3]))
+print(productExceptSelf2([1, 2, 3, 4]))
