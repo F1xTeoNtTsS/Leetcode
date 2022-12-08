@@ -19,7 +19,7 @@ func singleNumber(_ nums: [Int]) -> Int {
 // https://leetcode.com/problems/single-number/
 // MARK: - Cases
 // [2,2,1] -> 1
-// [4,1,2,1,2] -> 4  0 1
+// [4,1,2,1,2] -> 4
 // [1,0,1] -> 0 
 //  0 1 2
 
