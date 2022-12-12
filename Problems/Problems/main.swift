@@ -7,5 +7,5 @@
 
 import Foundation
 
-print(findDuplicate([1,1]))
-print(findDuplicate([3,1,3,4,2]))
+print(findDuplicates([4,3,2,7,8,2,3,1]))
+print(findDuplicates([1,1,2]))

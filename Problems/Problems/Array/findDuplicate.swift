@@ -25,3 +25,24 @@ func findDuplicate(_ nums: [Int]) -> Int {
 // MARK: - Cases
 // [1,3,4,2,2] -> 2
 // [3,1,3,4,2] -> 3
+
+
+
+func findDuplicates(_ nums: [Int]) -> [Int] {
+    var dict: [Int: Int] = [:]
+    
+    for n in nums {
+        if let value = dict[n] {
+            dict[n] = value + 1
+        } else {
+           dict[n] = 1 
+        }
+    }
+    
+    return dict.filter({ $0.value == 2 }).map({ $0.key })
+}
+
+// https://leetcode.com/problems/find-all-duplicates-in-an-array/
+// MARK: - Cases
+// [4,3,2,7,8,2,3,1] -> [2, 3]
+// [1,1,2] -> [1]
