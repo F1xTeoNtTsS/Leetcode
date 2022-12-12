@@ -22,6 +22,7 @@
 		2D3C39F92939E1CF00FCB199 /* singleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39F82939E1CF00FCB199 /* singleNumber.swift */; };
 		2D3C3A00293DE06600FCB199 /* construct2DArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39FF293DE06600FCB199 /* construct2DArray.swift */; };
 		2D3C3A02293F434500FCB199 /* productExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C3A01293F434500FCB199 /* productExceptSelf.swift */; };
+		2DD1F9922947095C00A40A10 /* setZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1F9912947095C00A40A10 /* setZeroes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +54,7 @@
 		2D3C39F82939E1CF00FCB199 /* singleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleNumber.swift; sourceTree = "<group>"; };
 		2D3C39FF293DE06600FCB199 /* construct2DArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = construct2DArray.swift; sourceTree = "<group>"; };
 		2D3C3A01293F434500FCB199 /* productExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productExceptSelf.swift; sourceTree = "<group>"; };
+		2DD1F9912947095C00A40A10 /* setZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setZeroes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				2D3C39FF293DE06600FCB199 /* construct2DArray.swift */,
 				2D3C3A01293F434500FCB199 /* productExceptSelf.swift */,
 				2D213F45294226C300BBB9D0 /* findDuplicate.swift */,
+				2DD1F9912947095C00A40A10 /* setZeroes.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				2D3C39E72930BF1F00FCB199 /* isValidBrackets.swift in Sources */,
 				2D3C39ED29360A8C00FCB199 /* removeKDigits.swift in Sources */,
 				2D3C39EB2934C41100FCB199 /* makeGoodString.swift in Sources */,
+				2DD1F9922947095C00A40A10 /* setZeroes.swift in Sources */,
 				2D3C39E52930B98600FCB199 /* removeDublicates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
