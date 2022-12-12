@@ -7,4 +7,5 @@
 
 import Foundation
 
-print(productExceptSelf2([1, 2, 3, 4]))
+print(findDuplicate([1,1]))
+print(findDuplicate([3,1,3,4,2]))

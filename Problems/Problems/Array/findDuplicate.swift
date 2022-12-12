@@ -8,13 +8,13 @@
 import Foundation
 
 func findDuplicate(_ nums: [Int]) -> Int {
-    var dict: [Int: Bool] = [:]
+    var set: Set<Int> = []
     
     for n in nums {
-        if dict[n] != nil {
+        if set.contains(n) {
             return n
         } else {
-            dict[n] = false
+            set.insert(n)
         }
     }
     
