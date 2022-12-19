@@ -23,6 +23,7 @@
 		2D3C3A00293DE06600FCB199 /* construct2DArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39FF293DE06600FCB199 /* construct2DArray.swift */; };
 		2D3C3A02293F434500FCB199 /* productExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C3A01293F434500FCB199 /* productExceptSelf.swift */; };
 		2DBE2D74294C62E4003C115E /* spiralOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBE2D73294C62E4003C115E /* spiralOrder.swift */; };
+		2DBF8B262950675400A2028C /* rotateImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF8B252950675400A2028C /* rotateImage.swift */; };
 		2DD1F9922947095C00A40A10 /* setZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1F9912947095C00A40A10 /* setZeroes.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		2D3C39FF293DE06600FCB199 /* construct2DArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = construct2DArray.swift; sourceTree = "<group>"; };
 		2D3C3A01293F434500FCB199 /* productExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productExceptSelf.swift; sourceTree = "<group>"; };
 		2DBE2D73294C62E4003C115E /* spiralOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spiralOrder.swift; sourceTree = "<group>"; };
+		2DBF8B252950675400A2028C /* rotateImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotateImage.swift; sourceTree = "<group>"; };
 		2DD1F9912947095C00A40A10 /* setZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setZeroes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +112,7 @@
 				2D213F45294226C300BBB9D0 /* findDuplicate.swift */,
 				2DD1F9912947095C00A40A10 /* setZeroes.swift */,
 				2DBE2D73294C62E4003C115E /* spiralOrder.swift */,
+				2DBF8B252950675400A2028C /* rotateImage.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -162,7 +165,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
-				LastUpgradeCheck = 1410;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					2D3C39D92930B8B800FCB199 = {
 						CreatedOnToolsVersion = 14.1;
@@ -196,6 +199,7 @@
 				2D3C3A00293DE06600FCB199 /* construct2DArray.swift in Sources */,
 				2D3C3A02293F434500FCB199 /* productExceptSelf.swift in Sources */,
 				2DBE2D74294C62E4003C115E /* spiralOrder.swift in Sources */,
+				2DBF8B262950675400A2028C /* rotateImage.swift in Sources */,
 				2D3C39EF2937588500FCB199 /* findAnagrams.swift in Sources */,
 				2D3C39DE2930B8B800FCB199 /* main.swift in Sources */,
 				2D213F46294226C300BBB9D0 /* findDuplicate.swift in Sources */,
@@ -248,6 +252,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -308,6 +313,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -331,7 +337,9 @@
 		2D3C39E22930B8B800FCB199 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = GKZ7DJWHAN;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -342,7 +350,9 @@
 		2D3C39E32930B8B800FCB199 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = GKZ7DJWHAN;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
