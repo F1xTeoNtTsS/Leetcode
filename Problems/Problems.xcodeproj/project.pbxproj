@@ -29,6 +29,7 @@
 		2DBF8B4B29559C4200A2028C /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF8B4A29559C4200A2028C /* LinkedList.swift */; };
 		2DBF8B4D29559C7700A2028C /* reverseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF8B4C29559C7700A2028C /* reverseList.swift */; };
 		2DD1F9922947095C00A40A10 /* setZeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1F9912947095C00A40A10 /* setZeroes.swift */; };
+		2DD86103295998F800582775 /* countBits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD86102295998F800582775 /* countBits.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,6 +68,7 @@
 		2DBF8B4A29559C4200A2028C /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		2DBF8B4C29559C7700A2028C /* reverseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reverseList.swift; sourceTree = "<group>"; };
 		2DD1F9912947095C00A40A10 /* setZeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setZeroes.swift; sourceTree = "<group>"; };
+		2DD86102295998F800582775 /* countBits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countBits.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		2D3C39D12930B8B800FCB199 = {
 			isa = PBXGroup;
 			children = (
+				2DD861002959695700582775 /* Algorithms */,
 				2D3C39DC2930B8B800FCB199 /* Problems */,
 				2D3C39DB2930B8B800FCB199 /* Products */,
 			);
@@ -105,6 +108,7 @@
 				2DBF8B322952FACB00A2028C /* Dynamic Programming */,
 				2DBF8B332952FB8500A2028C /* Greedy */,
 				2DBF8B4929559C1D00A2028C /* Linked List */,
+				2DD86101295998B200582775 /* Bit manipulation */,
 				2D3C39FA2939E1E500FCB199 /* Array */,
 			);
 			path = Problems;
@@ -171,6 +175,21 @@
 				2DBF8B4C29559C7700A2028C /* reverseList.swift */,
 			);
 			path = "Linked List";
+			sourceTree = "<group>";
+		};
+		2DD861002959695700582775 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		2DD86101295998B200582775 /* Bit manipulation */ = {
+			isa = PBXGroup;
+			children = (
+				2DD86102295998F800582775 /* countBits.swift */,
+			);
+			path = "Bit manipulation";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +259,7 @@
 				2DBF8B4B29559C4200A2028C /* LinkedList.swift in Sources */,
 				2D3C39EF2937588500FCB199 /* findAnagrams.swift in Sources */,
 				2D3C39DE2930B8B800FCB199 /* main.swift in Sources */,
+				2DD86103295998F800582775 /* countBits.swift in Sources */,
 				2D213F46294226C300BBB9D0 /* findDuplicate.swift in Sources */,
 				2D3C39E92934A5C800FCB199 /* reversePolishNotation.swift in Sources */,
 				2D3C39F52938EC1100FCB199 /* missingNumber.swift in Sources */,
