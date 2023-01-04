@@ -6,5 +6,3 @@
 //
 
 import Foundation
-
-print(countBits(n: 5))
