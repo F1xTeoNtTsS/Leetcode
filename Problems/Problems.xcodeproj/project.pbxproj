@@ -22,6 +22,7 @@
 		2D3C39F92939E1CF00FCB199 /* singleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39F82939E1CF00FCB199 /* singleNumber.swift */; };
 		2D3C3A00293DE06600FCB199 /* construct2DArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39FF293DE06600FCB199 /* construct2DArray.swift */; };
 		2D3C3A02293F434500FCB199 /* productExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C3A01293F434500FCB199 /* productExceptSelf.swift */; };
+		2DAF630929655999005DD72A /* hasCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF630829655999005DD72A /* hasCycle.swift */; };
 		2DBE2D74294C62E4003C115E /* spiralOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBE2D73294C62E4003C115E /* spiralOrder.swift */; };
 		2DBF8B262950675400A2028C /* rotateImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF8B252950675400A2028C /* rotateImage.swift */; };
 		2DBF8B2A2950A1CE00A2028C /* climbStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF8B292950A1CE00A2028C /* climbStairs.swift */; };
@@ -61,6 +62,7 @@
 		2D3C39F82939E1CF00FCB199 /* singleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleNumber.swift; sourceTree = "<group>"; };
 		2D3C39FF293DE06600FCB199 /* construct2DArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = construct2DArray.swift; sourceTree = "<group>"; };
 		2D3C3A01293F434500FCB199 /* productExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productExceptSelf.swift; sourceTree = "<group>"; };
+		2DAF630829655999005DD72A /* hasCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hasCycle.swift; sourceTree = "<group>"; };
 		2DBE2D73294C62E4003C115E /* spiralOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spiralOrder.swift; sourceTree = "<group>"; };
 		2DBF8B252950675400A2028C /* rotateImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotateImage.swift; sourceTree = "<group>"; };
 		2DBF8B292950A1CE00A2028C /* climbStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = climbStairs.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				2DBF8B4A29559C4200A2028C /* LinkedList.swift */,
+				2DAF630829655999005DD72A /* hasCycle.swift */,
 				2DBF8B4C29559C7700A2028C /* reverseList.swift */,
 			);
 			path = "Linked List";
@@ -263,6 +266,7 @@
 				2D213F46294226C300BBB9D0 /* findDuplicate.swift in Sources */,
 				2D3C39E92934A5C800FCB199 /* reversePolishNotation.swift in Sources */,
 				2D3C39F52938EC1100FCB199 /* missingNumber.swift in Sources */,
+				2DAF630929655999005DD72A /* hasCycle.swift in Sources */,
 				2D3C39F72939D94A00FCB199 /* findDisappearedNumbers.swift in Sources */,
 				2D3C39F129389A1400FCB199 /* peakIndexInMountainArray.swift in Sources */,
 				2DBF8B4D29559C7700A2028C /* reverseList.swift in Sources */,

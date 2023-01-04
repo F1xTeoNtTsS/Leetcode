@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(countBitsDummy(n: 5))
+print(countBits(n: 5))

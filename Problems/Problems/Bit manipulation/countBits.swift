@@ -16,6 +16,7 @@ func countBits(n: Int) -> [Int] {
     while i <= n {
         let n1 = i >> 1
         let n2 = i % 2
+        print(n1, n2)
         count.append(count[n1] + count[n2])
         i += 1
     }
