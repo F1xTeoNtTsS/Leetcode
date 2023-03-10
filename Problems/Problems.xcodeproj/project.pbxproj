@@ -25,6 +25,7 @@
 		2DAF630929655999005DD72A /* hasCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF630829655999005DD72A /* hasCycle.swift */; };
 		2DAF630B29655E66005DD72A /* isPalindromeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF630A29655E66005DD72A /* isPalindromeList.swift */; };
 		2DB416A629BB207A00A21F50 /* squaresOfASortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB416A529BB207A00A21F50 /* squaresOfASortedArray.swift */; };
+		2DB416A829BB268800A21F50 /* backspaceStringCompare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB416A729BB268800A21F50 /* backspaceStringCompare.swift */; };
 		2DBE2D74294C62E4003C115E /* spiralOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBE2D73294C62E4003C115E /* spiralOrder.swift */; };
 		2DBF8B262950675400A2028C /* rotateImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF8B252950675400A2028C /* rotateImage.swift */; };
 		2DBF8B2A2950A1CE00A2028C /* climbStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF8B292950A1CE00A2028C /* climbStairs.swift */; };
@@ -67,6 +68,7 @@
 		2DAF630829655999005DD72A /* hasCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hasCycle.swift; sourceTree = "<group>"; };
 		2DAF630A29655E66005DD72A /* isPalindromeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isPalindromeList.swift; sourceTree = "<group>"; };
 		2DB416A529BB207A00A21F50 /* squaresOfASortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = squaresOfASortedArray.swift; sourceTree = "<group>"; };
+		2DB416A729BB268800A21F50 /* backspaceStringCompare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backspaceStringCompare.swift; sourceTree = "<group>"; };
 		2DBE2D73294C62E4003C115E /* spiralOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spiralOrder.swift; sourceTree = "<group>"; };
 		2DBF8B252950675400A2028C /* rotateImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotateImage.swift; sourceTree = "<group>"; };
 		2DBF8B292950A1CE00A2028C /* climbStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = climbStairs.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				2DBE2D73294C62E4003C115E /* spiralOrder.swift */,
 				2DBF8B252950675400A2028C /* rotateImage.swift */,
 				2DB416A529BB207A00A21F50 /* squaresOfASortedArray.swift */,
+				2DB416A729BB268800A21F50 /* backspaceStringCompare.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				2DBE2D74294C62E4003C115E /* spiralOrder.swift in Sources */,
 				2DBF8B352952FB9900A2028C /* maxProfit.swift in Sources */,
 				2DAF630B29655E66005DD72A /* isPalindromeList.swift in Sources */,
+				2DB416A829BB268800A21F50 /* backspaceStringCompare.swift in Sources */,
 				2DBF8B262950675400A2028C /* rotateImage.swift in Sources */,
 				2DBF8B4B29559C4200A2028C /* LinkedList.swift in Sources */,
 				2D3C39EF2937588500FCB199 /* findAnagrams.swift in Sources */,
