@@ -7,4 +7,3 @@
 
 import Foundation
 
-print(backspaceCompare("y#fo##f", "y#f#o##f"))
