@@ -1,5 +1,5 @@
 //
-//  TreeDFS.swift
+//  TreeTraversal.swift
 //  Problems
 //
 //  Created by F1xTeoNtTsS on 13/03/2023.
