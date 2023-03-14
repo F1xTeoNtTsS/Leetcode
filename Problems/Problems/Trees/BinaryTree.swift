@@ -29,5 +29,9 @@ public class TreeNode {
         let node1 = TreeNode(2, node3, node4)
         return TreeNode(4, node1, node2)
     }
+
+    static func sipleTree2() -> TreeNode {
+        return TreeNode(10, self.sipleTree(), nil)
+    }
 }
 

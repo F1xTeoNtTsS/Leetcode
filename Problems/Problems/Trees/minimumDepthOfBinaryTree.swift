@@ -9,16 +9,16 @@ import Foundation
 
 func minDepth(_ root: TreeNode?) -> Int {
     guard let root = root else { return 0 }
-    
+
     var result = 1
     var queue: [TreeNode] = [root]
-    
-    
+
+
 externalLoop: while queue.count > 0 {
     var childQueue: [TreeNode] = []
     for node in queue {
         if node.left == nil && node.right == nil { break externalLoop }
-        
+
         if let left = node.left {
             childQueue.append(left)
         }
@@ -29,7 +29,7 @@ externalLoop: while queue.count > 0 {
     queue = childQueue
     result += 1
 }
-    
+
     return result
 }
 

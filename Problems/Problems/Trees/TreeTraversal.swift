@@ -61,7 +61,6 @@ func BFS(_ root: TreeNode?) {
 
     while !queue.isEmpty {
         let node = queue.removeFirst()
-        print(node.val)
         if let left = node.left {
             queue.append(left)
         }
