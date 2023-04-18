@@ -24,6 +24,8 @@
 		2D3C3A02293F434500FCB199 /* productExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C3A01293F434500FCB199 /* productExceptSelf.swift */; };
 		2DAF630929655999005DD72A /* hasCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF630829655999005DD72A /* hasCycle.swift */; };
 		2DAF630B29655E66005DD72A /* isPalindromeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF630A29655E66005DD72A /* isPalindromeList.swift */; };
+		2DB1DE7329ED53CD00CE0B4F /* hasPathSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1DE7229ED53CD00CE0B4F /* hasPathSum.swift */; };
+		2DB1DE7529ED67D600CE0B4F /* maxDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1DE7429ED67D600CE0B4F /* maxDepth.swift */; };
 		2DB416A629BB207A00A21F50 /* squaresOfASortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB416A529BB207A00A21F50 /* squaresOfASortedArray.swift */; };
 		2DB416A829BB268800A21F50 /* backspaceStringCompare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB416A729BB268800A21F50 /* backspaceStringCompare.swift */; };
 		2DB416AD29BB2F7B00A21F50 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB416AC29BB2F7B00A21F50 /* BinaryTree.swift */; };
@@ -71,6 +73,8 @@
 		2D3C3A01293F434500FCB199 /* productExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productExceptSelf.swift; sourceTree = "<group>"; };
 		2DAF630829655999005DD72A /* hasCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hasCycle.swift; sourceTree = "<group>"; };
 		2DAF630A29655E66005DD72A /* isPalindromeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isPalindromeList.swift; sourceTree = "<group>"; };
+		2DB1DE7229ED53CD00CE0B4F /* hasPathSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hasPathSum.swift; sourceTree = "<group>"; };
+		2DB1DE7429ED67D600CE0B4F /* maxDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maxDepth.swift; sourceTree = "<group>"; };
 		2DB416A529BB207A00A21F50 /* squaresOfASortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = squaresOfASortedArray.swift; sourceTree = "<group>"; };
 		2DB416A729BB268800A21F50 /* backspaceStringCompare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backspaceStringCompare.swift; sourceTree = "<group>"; };
 		2DB416AC29BB2F7B00A21F50 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
@@ -178,6 +182,8 @@
 				2DB416B029BF14AB00A21F50 /* TreeTraversal.swift */,
 				2DB416B229BF4BC500A21F50 /* minimumDepthOfBinaryTree.swift */,
 				2DB416B429C070A300A21F50 /* sameTree.swift */,
+				2DB1DE7229ED53CD00CE0B4F /* hasPathSum.swift */,
+				2DB1DE7429ED67D600CE0B4F /* maxDepth.swift */,
 			);
 			path = Trees;
 			sourceTree = "<group>";
@@ -291,6 +297,7 @@
 				2DBF8B352952FB9900A2028C /* maxProfit.swift in Sources */,
 				2DAF630B29655E66005DD72A /* isPalindromeList.swift in Sources */,
 				2DB416A829BB268800A21F50 /* backspaceStringCompare.swift in Sources */,
+				2DB1DE7329ED53CD00CE0B4F /* hasPathSum.swift in Sources */,
 				2DBF8B262950675400A2028C /* rotateImage.swift in Sources */,
 				2DB416AD29BB2F7B00A21F50 /* BinaryTree.swift in Sources */,
 				2DBF8B4B29559C4200A2028C /* LinkedList.swift in Sources */,
@@ -303,6 +310,7 @@
 				2DAF630929655999005DD72A /* hasCycle.swift in Sources */,
 				2D3C39F72939D94A00FCB199 /* findDisappearedNumbers.swift in Sources */,
 				2D3C39F129389A1400FCB199 /* peakIndexInMountainArray.swift in Sources */,
+				2DB1DE7529ED67D600CE0B4F /* maxDepth.swift in Sources */,
 				2DB416B529C070A300A21F50 /* sameTree.swift in Sources */,
 				2DBF8B4D29559C7700A2028C /* reverseList.swift in Sources */,
 				2D3C39F32938EA5F00FCB199 /* containsDuplicate.swift in Sources */,
@@ -374,9 +382,11 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 			};
 			name = Debug;
 		};
@@ -428,20 +438,25 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 			};
 			name = Release;
 		};
 		2D3C39E22930B8B800FCB199 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = NO;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = GKZ7DJWHAN;
 				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -450,11 +465,14 @@
 		2D3C39E32930B8B800FCB199 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = NO;
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = GKZ7DJWHAN;
 				ENABLE_HARDENED_RUNTIME = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
