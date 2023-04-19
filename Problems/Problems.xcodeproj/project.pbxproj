@@ -26,6 +26,7 @@
 		2DAF630B29655E66005DD72A /* isPalindromeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF630A29655E66005DD72A /* isPalindromeList.swift */; };
 		2DB1DE7329ED53CD00CE0B4F /* hasPathSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1DE7229ED53CD00CE0B4F /* hasPathSum.swift */; };
 		2DB1DE7529ED67D600CE0B4F /* maxDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1DE7429ED67D600CE0B4F /* maxDepth.swift */; };
+		2DB1DE7729EE9E8700CE0B4F /* diameterOfBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1DE7629EE9E8700CE0B4F /* diameterOfBinaryTree.swift */; };
 		2DB416A629BB207A00A21F50 /* squaresOfASortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB416A529BB207A00A21F50 /* squaresOfASortedArray.swift */; };
 		2DB416A829BB268800A21F50 /* backspaceStringCompare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB416A729BB268800A21F50 /* backspaceStringCompare.swift */; };
 		2DB416AD29BB2F7B00A21F50 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB416AC29BB2F7B00A21F50 /* BinaryTree.swift */; };
@@ -75,6 +76,7 @@
 		2DAF630A29655E66005DD72A /* isPalindromeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isPalindromeList.swift; sourceTree = "<group>"; };
 		2DB1DE7229ED53CD00CE0B4F /* hasPathSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hasPathSum.swift; sourceTree = "<group>"; };
 		2DB1DE7429ED67D600CE0B4F /* maxDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maxDepth.swift; sourceTree = "<group>"; };
+		2DB1DE7629EE9E8700CE0B4F /* diameterOfBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diameterOfBinaryTree.swift; sourceTree = "<group>"; };
 		2DB416A529BB207A00A21F50 /* squaresOfASortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = squaresOfASortedArray.swift; sourceTree = "<group>"; };
 		2DB416A729BB268800A21F50 /* backspaceStringCompare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backspaceStringCompare.swift; sourceTree = "<group>"; };
 		2DB416AC29BB2F7B00A21F50 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 				2DB416B429C070A300A21F50 /* sameTree.swift */,
 				2DB1DE7229ED53CD00CE0B4F /* hasPathSum.swift */,
 				2DB1DE7429ED67D600CE0B4F /* maxDepth.swift */,
+				2DB1DE7629EE9E8700CE0B4F /* diameterOfBinaryTree.swift */,
 			);
 			path = Trees;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				2DAF630B29655E66005DD72A /* isPalindromeList.swift in Sources */,
 				2DB416A829BB268800A21F50 /* backspaceStringCompare.swift in Sources */,
 				2DB1DE7329ED53CD00CE0B4F /* hasPathSum.swift in Sources */,
+				2DB1DE7729EE9E8700CE0B4F /* diameterOfBinaryTree.swift in Sources */,
 				2DBF8B262950675400A2028C /* rotateImage.swift in Sources */,
 				2DB416AD29BB2F7B00A21F50 /* BinaryTree.swift in Sources */,
 				2DBF8B4B29559C4200A2028C /* LinkedList.swift in Sources */,
