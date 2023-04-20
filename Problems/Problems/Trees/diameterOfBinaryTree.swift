@@ -22,6 +22,6 @@ func diameterOfBinaryTree(_ root: TreeNode?) -> Int {
     }
 
     var diameter = -1
-    _ = dfs(root, &diameter)
+    dfs(root, &diameter)
     return diameter
 }
