@@ -9,19 +9,23 @@ import Foundation
 
 func diameterOfBinaryTree(_ root: TreeNode?) -> Int {
     guard root != nil else { return 0 }
-
+    
     func dfs(_ node: TreeNode?, _ diameter: inout Int) -> Int {
         guard let node = node else { return 0 }
-
+        
         let left = dfs(node.left, &diameter)
         let right = dfs(node.right, &diameter)
-
+        
         diameter = max(diameter, left + right)
-
+        
         return 1 + max(left, right)
     }
-
+    
     var diameter = -1
-    dfs(root, &diameter)
+    _ = dfs(root, &diameter)
     return diameter
 }
+
+// https://leetcode.com/problems/diameter-of-binary-tree/
+
+
