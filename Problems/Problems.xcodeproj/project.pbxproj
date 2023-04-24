@@ -27,6 +27,7 @@
 		2D3C3A02293F434500FCB199 /* productExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C3A01293F434500FCB199 /* productExceptSelf.swift */; };
 		2DAF630929655999005DD72A /* hasCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF630829655999005DD72A /* hasCycle.swift */; };
 		2DAF630B29655E66005DD72A /* isPalindromeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF630A29655E66005DD72A /* isPalindromeList.swift */; };
+		2DAF86D729F6638300A15317 /* smallerNumbersThanCurrent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF86D629F6638300A15317 /* smallerNumbersThanCurrent.swift */; };
 		2DB1DE7329ED53CD00CE0B4F /* hasPathSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1DE7229ED53CD00CE0B4F /* hasPathSum.swift */; };
 		2DB1DE7529ED67D600CE0B4F /* maxDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1DE7429ED67D600CE0B4F /* maxDepth.swift */; };
 		2DB1DE7729EE9E8700CE0B4F /* diameterOfBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB1DE7629EE9E8700CE0B4F /* diameterOfBinaryTree.swift */; };
@@ -80,6 +81,7 @@
 		2D3C3A01293F434500FCB199 /* productExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productExceptSelf.swift; sourceTree = "<group>"; };
 		2DAF630829655999005DD72A /* hasCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hasCycle.swift; sourceTree = "<group>"; };
 		2DAF630A29655E66005DD72A /* isPalindromeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isPalindromeList.swift; sourceTree = "<group>"; };
+		2DAF86D629F6638300A15317 /* smallerNumbersThanCurrent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smallerNumbersThanCurrent.swift; sourceTree = "<group>"; };
 		2DB1DE7229ED53CD00CE0B4F /* hasPathSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hasPathSum.swift; sourceTree = "<group>"; };
 		2DB1DE7429ED67D600CE0B4F /* maxDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maxDepth.swift; sourceTree = "<group>"; };
 		2DB1DE7629EE9E8700CE0B4F /* diameterOfBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diameterOfBinaryTree.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				2D3C39DD2930B8B800FCB199 /* main.swift */,
+				2DAF86D529F6636200A15317 /* Hash Table */,
 				2D3C39FD2939E27F00FCB199 /* Stack */,
 				2D3C39FE2939F6BD00FCB199 /* String */,
 				2DBF8B322952FACB00A2028C /* Dynamic Programming */,
@@ -181,6 +184,14 @@
 				2D3C39EE2937588500FCB199 /* findAnagrams.swift */,
 			);
 			path = String;
+			sourceTree = "<group>";
+		};
+		2DAF86D529F6636200A15317 /* Hash Table */ = {
+			isa = PBXGroup;
+			children = (
+				2DAF86D629F6638300A15317 /* smallerNumbersThanCurrent.swift */,
+			);
+			path = "Hash Table";
 			sourceTree = "<group>";
 		};
 		2DB416AB29BB2F3100A21F50 /* Trees */ = {
@@ -322,6 +333,7 @@
 				2D05D83C29F26A1C00AC21FD /* invertTree.swift in Sources */,
 				2D3C39E92934A5C800FCB199 /* reversePolishNotation.swift in Sources */,
 				2D3C39F52938EC1100FCB199 /* missingNumber.swift in Sources */,
+				2DAF86D729F6638300A15317 /* smallerNumbersThanCurrent.swift in Sources */,
 				2DAF630929655999005DD72A /* hasCycle.swift in Sources */,
 				2D3C39F72939D94A00FCB199 /* findDisappearedNumbers.swift in Sources */,
 				2D3C39F129389A1400FCB199 /* peakIndexInMountainArray.swift in Sources */,
