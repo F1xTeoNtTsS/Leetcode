@@ -6,6 +6,7 @@
 //
 
 import Foundation
+//https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/
 
 func countKDifference(_ nums: [Int], _ k: Int) -> Int {
     let lengh = nums.count - 1

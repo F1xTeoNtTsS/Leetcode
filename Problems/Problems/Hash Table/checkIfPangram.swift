@@ -6,6 +6,7 @@
 //
 
 import Foundation
+// https://leetcode.com/problems/check-if-the-sentence-is-pangram/
 
 func checkIfPangram(_ sentence: String) -> Bool {
     var alphabet: [Character: String] = ["a": "", "b": "", "c": "", "d": "", "e": "", "f": "", "g": "",

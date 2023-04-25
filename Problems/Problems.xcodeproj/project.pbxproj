@@ -139,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				2D3C39DD2930B8B800FCB199 /* main.swift */,
+				2DAF86DE29F7ED0C00A15317 /* ALL */,
 				2DAF86D529F6636200A15317 /* Hash Table */,
 				2D3C39FD2939E27F00FCB199 /* Stack */,
 				2D3C39FE2939F6BD00FCB199 /* String */,
@@ -198,9 +199,16 @@
 				2DAF86D629F6638300A15317 /* smallerNumbersThanCurrent.swift */,
 				2DAF86D829F7E22800A15317 /* decodeMessage.swift */,
 				2DAF86DA29F7E53500A15317 /* checkIfPangram.swift */,
-				2DAF86DC29F7EC2200A15317 /* countKDifference.swift */,
 			);
 			path = "Hash Table";
+			sourceTree = "<group>";
+		};
+		2DAF86DE29F7ED0C00A15317 /* ALL */ = {
+			isa = PBXGroup;
+			children = (
+				2DAF86DC29F7EC2200A15317 /* countKDifference.swift */,
+			);
+			path = ALL;
 			sourceTree = "<group>";
 		};
 		2DB416AB29BB2F3100A21F50 /* Trees */ = {
