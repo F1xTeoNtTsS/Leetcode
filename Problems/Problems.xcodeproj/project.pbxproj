@@ -25,6 +25,7 @@
 		2D3C39F92939E1CF00FCB199 /* singleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39F82939E1CF00FCB199 /* singleNumber.swift */; };
 		2D3C3A00293DE06600FCB199 /* construct2DArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C39FF293DE06600FCB199 /* construct2DArray.swift */; };
 		2D3C3A02293F434500FCB199 /* productExceptSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3C3A01293F434500FCB199 /* productExceptSelf.swift */; };
+		2D9EFCD729FE2F8400B085BF /* Swift interview problems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9EFCD629FE2F8400B085BF /* Swift interview problems.swift */; };
 		2DAF630929655999005DD72A /* hasCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF630829655999005DD72A /* hasCycle.swift */; };
 		2DAF630B29655E66005DD72A /* isPalindromeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF630A29655E66005DD72A /* isPalindromeList.swift */; };
 		2DAF86D729F6638300A15317 /* smallerNumbersThanCurrent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF86D629F6638300A15317 /* smallerNumbersThanCurrent.swift */; };
@@ -82,6 +83,7 @@
 		2D3C39F82939E1CF00FCB199 /* singleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singleNumber.swift; sourceTree = "<group>"; };
 		2D3C39FF293DE06600FCB199 /* construct2DArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = construct2DArray.swift; sourceTree = "<group>"; };
 		2D3C3A01293F434500FCB199 /* productExceptSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productExceptSelf.swift; sourceTree = "<group>"; };
+		2D9EFCD629FE2F8400B085BF /* Swift interview problems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift interview problems.swift"; sourceTree = "<group>"; };
 		2DAF630829655999005DD72A /* hasCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hasCycle.swift; sourceTree = "<group>"; };
 		2DAF630A29655E66005DD72A /* isPalindromeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isPalindromeList.swift; sourceTree = "<group>"; };
 		2DAF86D629F6638300A15317 /* smallerNumbersThanCurrent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = smallerNumbersThanCurrent.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				2D3C39DD2930B8B800FCB199 /* main.swift */,
+				2D9EFCD629FE2F8400B085BF /* Swift interview problems.swift */,
 				2DAF86DE29F7ED0C00A15317 /* ALL */,
 				2DAF86D529F6636200A15317 /* Hash Table */,
 				2D3C39FD2939E27F00FCB199 /* Stack */,
@@ -337,6 +340,7 @@
 				2DBE2D74294C62E4003C115E /* spiralOrder.swift in Sources */,
 				2DBF8B352952FB9900A2028C /* maxProfit.swift in Sources */,
 				2DAF630B29655E66005DD72A /* isPalindromeList.swift in Sources */,
+				2D9EFCD729FE2F8400B085BF /* Swift interview problems.swift in Sources */,
 				2DB416A829BB268800A21F50 /* backspaceStringCompare.swift in Sources */,
 				2DB1DE7329ED53CD00CE0B4F /* hasPathSum.swift in Sources */,
 				2DB1DE7729EE9E8700CE0B4F /* diameterOfBinaryTree.swift in Sources */,
